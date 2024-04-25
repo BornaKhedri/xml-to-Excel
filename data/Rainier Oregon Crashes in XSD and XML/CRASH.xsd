@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Root">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="CRASH">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CRASH_ID" type="xs:integer" />
+              <xs:element name="SER_NO" type="xs:string" />
+              <xs:element name="CRASH_DT" type="xs:dateTime" />
+              <xs:element name="CRASH_MO_NO" type="xs:string" />
+              <xs:element name="CRASH_DAY_NO" type="xs:string" />
+              <xs:element name="CRASH_YR_NO" type="xs:string" />
+              <xs:element name="CRASH_WK_DAY_CD" type="xs:string" />
+              <xs:element name="CRASH_HR_NO" type="xs:string" />
+              <xs:element name="CRASH_HR_SHORT_DESC" type="xs:string" />
+              <xs:element name="CNTY_ID" type="xs:string" />
+              <xs:element name="CNTY_NM" type="xs:string" />
+              <xs:element  name="CITY_SECT_ID" type="xs:integer" />
+              <xs:element name="CITY_SECT_NM" type="xs:string" />
+              <xs:element minOccurs="0" name="URB_AREA_CD" type="xs:unsignedByte" />
+              <xs:element name="URB_AREA_SHORT_NM" type="xs:string" />
+              <xs:element name="FC_CD" type="xs:string" />
+              <xs:element name="FC_SHORT_DESC" type="xs:string" />
+              <xs:element name="NHS_FLG" type="xs:boolean" />
+              <xs:element name="HWY_NO" type="xs:string" />
+              <xs:element name="HWY_SFX_NO" type="xs:string" />
+              <xs:element name="HWY_MED_NM" type="xs:string" />
+              <xs:element name="RDWY_NO" type="xs:string" />
+              <xs:element name="HWY_COMPNT_CD" type="xs:string" />
+              <xs:element name="HWY_COMPNT_SHORT_DESC" type="xs:string" />
+              <xs:element name="MLGE_TYP_CD" type="xs:string" />
+              <xs:element name="MLGE_TYP_SHORT_DESC" type="xs:string" />
+              <xs:element name="RD_CON_NO" type="xs:string" />
+              <xs:element name="LRS_VAL" type="xs:string" />
+              <xs:element name="LAT_DEG_NO" type="xs:integer" />
+              <xs:element name="LAT_MINUTE_NO" type="xs:integer" />
+              <xs:element name="LAT_SEC_NO" type="xs:decimal" />
+              <xs:element name="LONGTD_DEG_NO" type="xs:integer" />
+              <xs:element name="LONGTD_MINUTE_NO" type="xs:integer" />
+              <xs:element name="LONGTD_SEC_NO" type="xs:decimal" />
+			  <xs:element name="LAT_DD" type="xs:decimal" />
+              <xs:element name="LONGTD_DD" type="xs:decimal" />
+              <xs:element name="AGY_ST_NO" type="xs:string" />
+              <xs:element name="ST_FULL_NM" type="xs:string" />
+              <xs:element name="ISECT_AGY_ST_NO" type="xs:string" />
+              <xs:element name="ISECT_ST_FULL_NM" type="xs:string" />
+              <xs:element name="ISECT_SEQ_NO" type="xs:integer" />
+              <xs:element name="CMPSS_DIR_CD" type="xs:string" />
+              <xs:element name="MP_NO" type="xs:decimal" />
+              <xs:element name="POST_SPEED_LMT_VAL" type="xs:string" />
+              <xs:element name="RD_CHAR_CD" type="xs:string" />
+              <xs:element name="RD_CHAR_SHORT_DESC" type="xs:string" />
+              <xs:element name="OFF_RDWY_FLG" type="xs:unsignedByte" />
+              <xs:element name="ISECT_TYP_CD" type="xs:string" />
+              <xs:element name="ISECT_TYP_SHORT_DESC" type="xs:string" />
+              <xs:element name="ISECT_REL_FLG" type="xs:unsignedByte" />
+              <xs:element name="RNDABT_FLG" type="xs:unsignedByte" />
+              <xs:element name="DRVWY_REL_FLG" type="xs:unsignedByte" /> 
+              <xs:element minOccurs="0" name="LN_QTY" type="xs:unsignedByte" />
+			  <xs:element name="TURNG_LEG_QTY" type="xs:integer" />
+              <xs:element minOccurs="0" name="MEDN_TYP_CD" type="xs:unsignedByte" />
+              <xs:element name="MEDN_TYP_SHORT_DESC" type="xs:string" />
+              <xs:element name="IMPCT_LOC_CD" type="xs:integer" />
+              <xs:element name="CRASH_TYP_CD" type="xs:string" />
+              <xs:element name="CRASH_TYP_SHORT_DESC" type="xs:string" />
+              <xs:element name="COLLIS_TYP_CD" type="xs:string" />
+              <xs:element name="COLLIS_TYP_SHORT_DESC" type="xs:string" />
+              <xs:element name="CRASH_SVRTY_CD" type="xs:unsignedByte" />
+              <xs:element name="CRASH_SVRTY_SHORT_DESC" type="xs:string" />
+              <xs:element name="WTHR_COND_CD" type="xs:unsignedByte" />
+              <xs:element name="WTHR_COND_SHORT_DESC" type="xs:string" />
+              <xs:element name="RD_SURF_COND_CD" type="xs:unsignedByte" />
+              <xs:element name="RD_SURF_SHORT_DESC" type="xs:string" />
+              <xs:element name="LGT_COND_CD" type="xs:unsignedByte" />
+              <xs:element name="LGT_COND_SHORT_DESC" type="xs:string" />
+              <xs:element name="TRAF_CNTL_DEVICE_CD" type="xs:unsignedByte" />
+              <xs:element name="TRAF_CNTL_DEVICE_SHORT_DESC" type="xs:string" />
+              <xs:element name="TRAF_CNTL_FUNC_FLG" type="xs:unsignedByte" />
+              <xs:element name="INVSTG_AGY_CD" type="xs:unsignedByte" />
+              <xs:element name="INVSTG_AGY_SHORT_DESC" type="xs:string" />
+              <xs:element minOccurs="0" name="CRASH_EVNT_1_CD" type="xs:unsignedByte" />
+              <xs:element name="CRASH_EVNT_1_SHORT_DESC" type="xs:string" />
+              <xs:element minOccurs="0" name="CRASH_EVNT_2_CD" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="CRASH_EVNT_2_SHORT_DESC" type="xs:string" />
+              <xs:element minOccurs="0" name="CRASH_EVNT_3_CD" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="CRASH_EVNT_3_SHORT_DESC" type="xs:string" />
+              <xs:element name="CRASH_CAUSE_1_CD" type="xs:unsignedByte" />
+              <xs:element name="CRASH_CAUSE_1_SHORT_DESC" type="xs:string" />
+              <xs:element minOccurs="0" name="CRASH_CAUSE_2_CD" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="CRASH_CAUSE_2_SHORT_DESC" type="xs:string" />
+              <xs:element minOccurs="0" name="CRASH_CAUSE_3_CD" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="CRASH_CAUSE_3_SHORT_DESC" type="xs:string" />
+              <xs:element minOccurs="0" name="SCHL_ZONE_IND" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="WRK_ZONE_IND" type="xs:unsignedByte" />
+              <xs:element name="ALCHL_INVLV_FLG" type="xs:unsignedByte" />
+              <xs:element name="DRUG_INVLV_FLG" type="xs:unsignedByte" />
+              <xs:element name="MJ_INVLV_FLG" type="xs:unsignedByte" />
+              <xs:element name="CRASH_SPEED_INVLV_FLG" type="xs:unsignedByte" />
+              <xs:element name="CRASH_HIT_RUN_FLG" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="POP_RNG_CD" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="POP_RNG_MED_DESC" type="xs:string" />
+              <xs:element name="RD_CNTL_CD" type="xs:unsignedByte" />
+              <xs:element name="RD_CNTL_MED_DESC" type="xs:string" />
+              <xs:element name="RTE_TYP_CD" type="xs:string" />
+              <xs:element name="RTE_ID" type="xs:unsignedByte" />
+			  <xs:element name="RTE_NM" type="xs:string" />
+              <xs:element name="REG_ID" type="xs:unsignedByte" />
+              <xs:element name="DIST_ID" type="xs:unsignedByte" />
+              <xs:element name="SEG_MRK_ID" type="xs:string" />
+              <xs:element name="SEG_PT_LRS_MEAS" type="xs:float" />
+              <xs:element name="UNLOCT_FLG" type="xs:unsignedByte" />
+              <xs:element name="CRASH_LAST_UD_DT" type="xs:dateTime" />
+              <xs:element name="TOT_VHCL_CNT" type="xs:unsignedByte" />
+              <xs:element name="TOT_FATAL_CNT" type="xs:unsignedByte" />
+              <xs:element name="TOT_INJ_LVL_A_CNT" type="xs:unsignedByte" />
+              <xs:element name="TOT_INJ_LVL_B_CNT" type="xs:unsignedByte" />
+              <xs:element name="TOT_INJ_LVL_C_CNT" type="xs:unsignedByte" />
+              <xs:element name="TOT_INJ_CNT" type="xs:unsignedByte" />
+              <xs:element name="TOT_UNINJD_AGE00_04_CNT" type="xs:unsignedByte" />
+              <xs:element name="TOT_UNINJD_PER_CNT" type="xs:unsignedByte" />
+              <xs:element name="TOT_PED_CNT" type="xs:unsignedByte" />
+              <xs:element name="TOT_PED_FATAL_CNT" type="xs:unsignedByte" />
+			  <xs:element name="TOT_PED_INJ_LVL_A_CNT" type="xs:unsignedByte" />
+              <xs:element name="TOT_PED_INJ_CNT" type="xs:unsignedByte" />
+              <xs:element name="TOT_PEDCYCL_CNT" type="xs:unsignedByte" />
+              <xs:element name="TOT_PEDCYCL_FATAL_CNT" type="xs:unsignedByte" />
+			  <xs:element name="TOT_PEDCYCL_INJ_LVL_A_CNT" type="xs:unsignedByte" />
+              <xs:element name="TOT_PEDCYCL_INJ_CNT" type="xs:unsignedByte" />
+              <xs:element name="TOT_UNKNWN_CNT" type="xs:unsignedByte" />
+              <xs:element name="TOT_UNKNWN_FATAL_CNT" type="xs:unsignedByte" />
+              <xs:element name="TOT_UNKNWN_INJ_CNT" type="xs:unsignedByte" />
+              <xs:element name="TOT_OCCUP_CNT" type="xs:unsignedByte" />
+              <xs:element name="TOT_PER_INVLV_CNT" type="xs:unsignedByte" />
+              <xs:element name="TOT_SFTY_EQUIP_USED_QTY" type="xs:unsignedByte" />
+              <xs:element name="TOT_SFTY_EQUIP_UNUSED_QTY" type="xs:unsignedByte" />
+              <xs:element name="TOT_SFTY_EQUIP_USE_UNKNWN_QTY" type="xs:unsignedByte" />
+			  <xs:element name="TOT_PSNGR_VHCL_OCC_UNRESTRND_FATAL_CNT" type="xs:unsignedByte" />
+              <xs:element name="TOT_MCYCLST_FATAL_CNT" type="xs:unsignedByte" />
+              <xs:element name="TOT_MCYCLST_INJ_LVL_A_CNT" type="xs:unsignedByte" />
+              <xs:element name="TOT_MCYCLST_INJ_CNT" type="xs:unsignedByte" />
+              <xs:element name="TOT_MCYCLST_UNHELMTD_FATAL_CNT" type="xs:unsignedByte" />
+              <xs:element name="TOT_ALCHL_IMPAIRED_DRVR_INV_FATAL_CNT" type="xs:unsignedByte" />
+              <xs:element name="TOT_DRVR_AGE_01_20_CNT" type="xs:unsignedByte" />
+              <xs:element name="LANE_RDWY_DPRT_CRASH_FLG" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

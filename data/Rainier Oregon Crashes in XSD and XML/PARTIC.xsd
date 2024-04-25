@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Root">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="PARTIC">
+          <xs:complexType>
+            <xs:sequence>
+                <xs:element name="CRASH_ID" type="xs:integer" />
+                <xs:element name="VHCL_ID" type="xs:integer" />
+                <xs:element name="PARTIC_ID" type="xs:integer" />
+                <xs:element name="PARTIC_DSPLY_SEQ_NO" type="xs:unsignedByte" />
+                <xs:element name="VHCL_CODED_SEQ_NO" type="xs:unsignedByte" />
+                <xs:element name="PARTIC_VHCL_SEQ_NO" type="xs:integer" />
+                <xs:element name="PARTIC_TYP_CD" type="xs:unsignedByte" />
+                <xs:element name="PARTIC_TYP_SHORT_DESC" type="xs:string" />
+                <xs:element name="PARTIC_HIT_RUN_FLG" type="xs:unsignedByte" />
+                <xs:element name="PUB_EMPL_FLG" type="xs:unsignedByte" />
+                <xs:element name="SEX_CD" type="xs:unsignedByte" />
+                <xs:element name="AGE_VAL" type="xs:unsignedByte" />
+                <xs:element name="DRVR_LIC_STAT_CD" type="xs:unsignedByte" />
+                <xs:element name="DRVR_LIC_STAT_SHORT_DESC" type="xs:string" />
+                <xs:element name="DRVR_RES_STAT_CD" type="xs:string" />
+                <xs:element name="DRVR_RES_SHORT_DESC" type="xs:string" />
+                <xs:element name="INJ_SVRTY_CD" type="xs:unsignedByte" />
+                <xs:element name="INJ_SVRTY_SHORT_DESC" type="xs:string" />
+                <xs:element name="MVMNT_CD" type="xs:unsignedByte" />
+                <xs:element name="MVMNT_SHORT_DESC" type="xs:string" />
+                <xs:element name="CMPSS_DIR_FROM_CD" type="xs:unsignedByte" />
+                <xs:element name="PARTIC_CMPSS_DIR_FROM_SHORT_DESC" type="xs:string" />
+                <xs:element name="CMPSS_DIR_TO_CD" type="xs:unsignedByte" />
+                <xs:element name="PARTIC_CMPSS_DIR_TO_SHORT_DESC" type="xs:string" />
+                <xs:element name="NON_MOTRST_LOC_CD" type="xs:unsignedByte" />
+                <xs:element name="NON_MOTRST_LOC_SHORT_DESC" type="xs:string" />
+                <xs:element name="SFTY_EQUIP_USE_CD" type="xs:unsignedByte" />
+                <xs:element name="SFTY_EQUIP_USE_SHORT_DESC" type="xs:string" />
+                <xs:element name="AIRBAG_DEPLOY_IND" type="xs:unsignedByte" />
+                <xs:element name="ACTN_CD" type="xs:unsignedByte" />
+                <xs:element name="ACTN_SHORT_DESC" type="xs:string" />
+                <xs:element name="PARTIC_ERR_1_CD" type="xs:unsignedByte" />
+                <xs:element name="PARTIC_ERR_1_SHORT_DESC" type="xs:string" />
+                <xs:element name="PARTIC_ERR_2_CD" type="xs:unsignedByte" />
+                <xs:element name="PARTIC_ERR_2_SHORT_DESC" type="xs:string" />
+                <xs:element name="PARTIC_ERR_3_CD" type="xs:unsignedByte" />
+                <xs:element name="PARTIC_ERR_3_SHORT_DESC" type="xs:string" />
+                <xs:element name="PARTIC_CAUSE_1_CD" type="xs:unsignedByte" />
+                <xs:element name="PARTIC_CAUSE_1_SHORT_DESC" type="xs:string" />
+                <xs:element name="PARTIC_CAUSE_2_CD" type="xs:unsignedByte" />
+                <xs:element name="PARTIC_CAUSE_2_SHORT_DESC" type="xs:string" />
+                <xs:element name="PARTIC_EVNT_1_CD" type="xs:unsignedByte" />
+                <xs:element name="PARTIC_EVNT_1_SHORT_DESC" type="xs:string" />
+                <xs:element name="PARTIC_CAUSE_3_CD" type="xs:unsignedByte" />
+                <xs:element name="PARTIC_CAUSE_3_SHORT_DESC" type="xs:string" />
+                <xs:element name="BAC_VAL" type="xs:unsignedByte" />
+                <xs:element name="ALCHL_USE_RPT_IND" type="xs:unsignedByte" />
+                <xs:element name="DRUG_USE_RPT_IND" type="xs:unsignedByte" />
+                <xs:element name="MJ_USE_RPT_IND" type="xs:unsignedByte" />
+                <xs:element name="STRIKG_PARTIC_FLG" type="xs:unsignedByte" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

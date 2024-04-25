@@ -1,0 +1,134 @@
+EVNT_CD,EVNT_LONG_DESC,EVNT_MED_DESC,EVNT_SHORT_DESC,EVNT_CRASH_VALID_FLG,EVNT_PARTIC_VALID_FLG,EVNT_VHCL_VALID_FLG,EVNT_TERMNT_DT,LAST_UD_DT,LAST_UD_USER_ID
+1,"Occupant fell, jumped or was ejected from moving vehicle",FELL/JUMPED MV,FEL/JUMP,1,1,0,,2014-04-23T14:36:52.780,Hwye85p
+2,Passenger interfered with driver,PSNGR INTERFERED,INTERFER,1,1,0,,2014-04-23T14:36:52.780,Hwye85p
+3,Animal or insect in vehicle interfered with driver,ANML INTERFERED,BUG INTF,1,1,0,,2014-04-23T10:39:55.193,Hwye85p
+4,Pedestrian indirectly involved (not struck),PED INDRCTLY INVLV,INDRCT PED,1,0,1,,2014-04-21T17:01:34.613,Hwye85p
+5,"""Sub-Ped"": pedestrian injured subsequent to collision, etc.",SUBSEQUENT PED,SUB-PED,1,1,0,,2014-04-23T14:36:52.783,Hwye85p
+6,Pedalcyclist indirectly involved (not struck),BIKE INDRCTLY INVLV,INDRCT BIK,1,0,1,,2014-04-21T17:01:34.647,Hwye85p
+7,Hitchhiker (soliciting a ride),HITCHHIKER,HITCHIKR,1,1,1,,2002-03-20T00:00:00,CONVERT
+8,Passenger or non-motorist being towed or pushed on conveyance,PSNGR TOWED,PSNGR TOW,1,1,0,,2014-04-21T17:01:34.653,Hwye85p
+9,Getting on/off stopped/parked vehicle (occupants only; must have physical contact w/ vehicle),ON/OFF STOP VEH,ON/OFF V,1,1,0,,2014-04-21T17:01:34.660,Hwye85p
+10,Overturned after first harmful event,SUBSEQ OVERTURN,SUB OTRN,1,0,1,,2014-04-21T17:01:34.667,Hwye85p
+11,Vehicle being pushed,VEH BEING PUSHED,MV PUSHD,1,0,1,,2002-03-20T00:00:00,CONVERT
+12,Vehicle towed or had been towing another vehicle,VEH TOWED/TOWING,MV TOWED,1,0,1,,2002-03-20T00:00:00,CONVERT
+13,"Vehicle forced by impact into another vehicle, pedalcyclist or pedestrian",FORCED BY IMPACT,FORCED,1,0,1,,2014-04-17T14:17:17.177,Hwye85p
+14,"Vehicle set in motion by non-driver (child released brakes, etc.)",MV SET IN MOTION,SET MOTN,1,0,1,,2014-04-21T17:01:34.670,Hwye85p
+15,At or on railroad right-of-way (not Light Rail),RAILROAD ROW,RR ROW,1,0,0,,2014-04-23T14:36:52.787,Hwye85p
+16,At or on Light-Rail right-of-way,LIGHT RAIL ROW,LT RL ROW,1,0,0,,2014-04-23T14:36:52.790,Hwye85p
+17,Train struck vehicle,TRAIN HIT VEH,RR HIT V,1,0,1,,2002-03-20T00:00:00,CONVERT
+18,Vehicle struck train,VEH HIT TRAIN,V HIT RR,1,0,1,,2002-03-20T00:00:00,CONVERT
+19,Vehicle struck railroad car on roadway,VEH HIT RR CAR,HIT RR CAR,1,0,1,,2002-03-20T00:00:00,CONVERT
+20,Jackknife; trailer or towed vehicle struck towing vehicle,JACKKNIFE,JACKNIFE,1,0,1,,2002-03-20T00:00:00,CONVERT
+21,Trailer or towed vehicle overturned,TRAILER O’TURN,TRL OTRN,1,0,1,,2002-03-20T00:00:00,CONVERT
+22,Trailer connection broke,TRLR CONN BROKE,CN BROKE,1,0,1,,2002-03-20T00:00:00,CONVERT
+23,"Detached trailing object struck other vehicle, non-motorist, or object",DETCHD TRLR STRKNG,DETACH TRL,1,0,1,,2004-05-12T15:12:21.943,isd849
+24,Vehicle door opened into adjacent traffic lane,V DOOR OPN IN TRAF,V DOOR OPN,1,0,1,,2004-05-12T15:12:21.943,isd849
+25,Wheel came off,WHEEL CAME OFF,WHEELOFF,1,0,1,,2002-03-20T00:00:00,CONVERT
+26,Hood flew up,HOOD FLEW UP,HOOD UP,1,0,1,,2002-03-20T00:00:00,CONVERT
+28,"Lost load, load moved or shifted",LOAD SHIFTED,LOAD SHIFT,1,0,1,,2004-05-21T08:38:50.177,isd849
+29,Tire failure,TIRE FAILURE,TIREFAIL,1,0,1,,2014-04-17T14:17:17.183,Hwye85p
+30,"Pet: cat, dog and similar",PET,PET,1,0,1,,2002-03-20T00:00:00,CONVERT
+31,"Stock: cow, calf, bull, steer, sheep, etc.",LIVESTOCK,LVSTOCK,1,0,1,,2002-03-20T00:00:00,CONVERT
+32,"Horse, mule, or donkey",HORSE,HORSE,1,0,1,,2002-03-20T00:00:00,CONVERT
+33,Horse and rider,HORSE & RIDER,HRSE&RID,1,0,1,,2002-03-20T00:00:00,CONVERT
+34,"Wild animal, game (includes birds; not deer or elk)",GAME NO DEER/ELK,GAME,1,0,1,,2002-03-20T00:00:00,CONVERT
+35,"Deer or elk, wapiti",DEER OR ELK,DEER ELK,1,0,1,,2002-03-20T00:00:00,CONVERT
+36,Animal-drawn vehicle,ANIMAL-DRAWN VEH,ANML VEH,1,0,1,,2002-03-20T00:00:00,CONVERT
+37,"Culvert, open low or high manhole",CULVERT/MANHOLE,CULVERT,1,0,1,,2002-03-20T00:00:00,CONVERT
+38,Impact attenuator,IMPACT CUSHION,ATENUATN,1,0,1,,2002-03-20T00:00:00,CONVERT
+39,Parking meter,PARKING METER,PK METER,1,0,1,,2002-03-20T00:00:00,CONVERT
+40,Curb  (also narrow sidewalks on bridges),CURB,CURB,1,0,1,,2002-03-20T00:00:00,CONVERT
+41,Jiggle bar or traffic snake for channelization,JIGGLE BAR N/MED,JIGGLE,1,0,1,2014-07-15T00:00:00,2014-08-07T14:16:54.800,Hwye85p
+42,Leading edge of guardrail,GUARDRAIL END,GDRL END,1,0,1,,2002-03-20T00:00:00,CONVERT
+43,Guard rail (not metal median barrier),GUARDRAIL,GARDRAIL,1,0,1,,2002-03-20T00:00:00,CONVERT
+44,Median barrier (raised or metal),MEDIAN BARRIER,BARRIER,1,0,1,,2002-03-20T00:00:00,CONVERT
+45,Retaining wall or tunnel wall,WALL,WALL,1,0,1,,2005-01-08T13:28:21.897,isd849
+46,Bridge railing or parapet (on bridge or approach),BRIDGE RAIL,BR RAIL,1,0,1,,2014-08-19T15:39:36.787,Hwye85p
+47,"Bridge abutment (included ""approach end"" thru 2013)",BRIDGE ABUTMENT,BR ABUTMNT,1,0,1,,2014-05-05T09:55:34.090,Hwye85p
+48,Bridge pillar or column,BRIDGE COLUMN,BR COLMN,1,0,1,,2014-08-19T15:39:36.790,Hwye85p
+49,Bridge girder (horizontal bridge structure overhead),BRIDGE GIRDER,BR GIRDR,1,0,1,,2014-04-17T14:59:49.763,Hwye85p
+50,Traffic raised island,TRAFFIC ISLAND,ISLAND,1,0,1,,2002-03-20T00:00:00,CONVERT
+51,Gore,GORE,GORE,1,0,1,,2002-03-20T00:00:00,CONVERT
+52,Pole – type unknown,POLE-UNKNOWN,POLE UNK,1,0,1,,2002-03-20T00:00:00,CONVERT
+53,Pole – power or telephone,POLE-UTILITY,POLE UTL,1,0,1,,2002-03-20T00:00:00,CONVERT
+54,Pole – street light only,POLE-ST LIGHT,ST LIGHT,1,0,1,,2002-03-20T00:00:00,CONVERT
+55,Pole – traffic signal and ped signal only,POLE-TRAF SIGNAL,TRF SGNL,1,0,1,,2002-03-20T00:00:00,CONVERT
+56,Pole – sign bridge,POLE-SIGN BRIDGE,SGN BRDG,1,0,1,,2002-03-20T00:00:00,CONVERT
+57,Stop or yield sign,STOP/YIELD SIGN,STOPSIGN,1,0,1,,2002-03-20T00:00:00,CONVERT
+58,"Other sign, including street signs",OTHER SIGN,OTH SIGN,1,0,1,,2002-03-20T00:00:00,CONVERT
+59,Hydrant,HYDRANT,HYDRANT,1,0,1,,2002-03-20T00:00:00,CONVERT
+60,Delineator or marker (reflector posts),DELINEATOR,MARKER,1,0,1,,2002-03-20T00:00:00,CONVERT
+61,Mailbox,MAILBOX,MAILBOX,1,0,1,,2002-03-20T00:00:00,CONVERT
+62,"Tree, stump or shrubs",TREE/STUMP,TREE,1,0,1,,2002-03-20T00:00:00,CONVERT
+63,"Tree branch or other vegetation overhead, etc.",VEGTN OVER RDWY,VEG OHED,1,0,1,,2002-03-20T00:00:00,CONVERT
+64,Wire or cable across or over the road,CABLE ACROSS RD,WIRE/CBL,1,0,1,,2002-03-20T00:00:00,CONVERT
+65,"Temporary sign or barricade in road, etc.",TEMP SIGN/BARR,TEMP SGN,1,0,1,,2002-03-20T00:00:00,CONVERT
+66,Permanent sign or barricade in/off road,PERM SIGN/BARR,PERM SGN,1,0,1,,2002-03-20T00:00:00,CONVERT
+67,"Slides, fallen or falling rocks",SLIDE/ROCKS,SLIDE,1,0,1,2014-08-05T00:00:00,2014-08-19T15:07:25.587,Hwye85p
+68,Foreign obstruction/debris in road  (not gravel),FOREIGN OBJECT,FRGN OBJ,1,0,1,,2002-03-20T00:00:00,CONVERT
+69,Equipment working in/off road,EQUIP WORKING,EQP WORK,1,0,1,,2002-03-20T00:00:00,CONVERT
+70,"Other equipment in or off road (includes parked trailer, boat)",OTHER EQUIPMENT,OTH EQP,1,0,1,,2002-03-20T00:00:00,CONVERT
+71,"Wrecker, street sweeper, snow plow or sanding equipment",MAINTNCE EQUIP,MAIN EQP,1,0,1,,2002-03-20T00:00:00,CONVERT
+72,"Rock, brick or other solid wall",OTHER WALL,OTHER WALL,1,0,1,,2004-05-21T08:39:51.347,isd849
+73,"Other bump (not speed bump), pothole or pavement irregularity",IRREGULAR PAVEMENT,IRRGL PVMT,1,0,1,,2024-01-30T16:12:34.697,hwye85p
+74,"Other overhead object (highway sign, signal head, etc.); not bridge",OTHER OVERHEAD OBJ,OVERHD OBJ,1,0,1,,2014-08-19T15:07:25.693,Hwye85p
+75,Bridge or road cave in,CAVE IN,CAVE IN,1,0,1,,2002-03-20T00:00:00,CONVERT
+76,High Water,HIGH WATER,HI WATER,1,0,1,,2002-03-20T00:00:00,CONVERT
+77,Snow Bank,SNOW BANK,SNO BANK,1,0,1,,2002-03-20T00:00:00,CONVERT
+78,Low or high shoulder at pavement edge,LOW-HIGH PVMNT EDGE,LO-HI EDGE,1,0,1,,2014-04-17T16:42:36.193,Hwye85p
+79,Cut slope or ditch embankment,CUT SLOPE/DITCH,DITCH,1,0,1,,2002-03-20T00:00:00,CONVERT
+80,Struck by rock or other object set in motion by other vehicle (incl. lost loads),OBJ FRM OTHR VEH,OBJ FRM MV,1,1,1,,2014-04-17T16:46:06.077,Hwye85p
+81,Struck by rock or other moving or flying object (not set in motion by vehicle),OTHER MOVING OBJ,FLY-OBJ,1,1,1,,2014-08-19T15:39:36.797,Hwye85p
+82,Vehicle obscured view,VEH OBSCURE VIEW,VEH HID,1,1,0,,2014-04-23T10:39:55.210,Hwye85p
+83,Vegetation obscured view,VEG OBSCURE VIEW,VEG HID,1,1,0,,2014-04-23T10:39:55.213,Hwye85p
+84,"View obscured by fence, sign, phone booth, etc.",BLD OBSCURE VIEW,BLDG HID,1,1,0,,2014-04-23T10:39:55.217,Hwye85p
+85,Wind Gust,WIND GUST,WIND GUST,1,0,1,,2002-03-20T00:00:00,CONVERT
+86,Vehicle immersed in body of water,IMMERSION,IMMERSED,1,0,1,,2002-03-20T00:00:00,CONVERT
+87,Fire or explosion,FIRE/EXPLOSION,FIRE/EXP,1,0,1,,2014-04-17T16:50:48.617,Hwye85p
+88,"Fence or building, etc.",FENCE/BUILDING,FENC/BLD,1,0,1,2014-08-05T00:00:00,2014-08-19T15:07:25.703,Hwye85p
+89,Crash related to another separate crash,REFER OTHR CRASH,OTHR CRASH,1,0,1,,2014-04-17T16:50:48.633,Hwye85p
+90,Two-way traffic on divided roadway all routed to one side,TWO WAY ONE SIDE,TO 1 SIDE,1,0,1,,2002-03-20T00:00:00,CONVERT
+91,Building or other structure,BUILDING,BUILDING,1,0,1,,2014-04-21T17:21:53.310,Hwye85p
+92,Other (phantom) non-contact vehicle,PHANTOM VEH,PHANTOM,1,1,1,,2014-04-23T14:36:52.817,Hwye85p
+93,Cell phone  (on PAR or driver in use),CELL PHONE PER PAR,CELL PHONE,1,1,0,,2014-04-21T17:21:53.323,Hwye85p
+94,Teenage driver in violation of graduated license pgm,VIOL GRAD DR LIC,VIOL GDL,1,1,0,,2002-03-20T00:00:00,CONVERT
+95,Guy wire,GUY WIRE,GUY WIRE,1,0,1,,2002-03-20T00:00:00,CONVERT
+96,Berm (earthen or gravel mound),BERM,BERM,1,0,1,,2002-03-20T00:00:00,CONVERT
+97,Gravel in roadway,GRAVEL IN RDWY,GRAVEL,1,0,1,,2002-03-20T00:00:00,CONVERT
+98,Abrupt edge,ABRUPT EDGE,ABR EDGE,1,0,1,,2002-03-20T00:00:00,CONVERT
+99,Cell phone use witnessed by other participant,CELL PHONE WITNESSED,CELL WTNSD,1,1,0,,2014-04-17T17:24:29.870,Hwye85p
+100,"Fixed object, unknown type.",UNK FIX OBJ,UNK FIXD,1,0,1,,2014-07-01T14:31:39.907,Hwye85p
+101,"Non-fixed object, other or unknown type",OTHER OBJ NOT FIXED,OTHER OBJ,1,0,1,,2014-07-03T17:02:02.643,Hwye85p
+102,Texting,TEXTING,TEXTING,1,1,0,,2014-04-21T17:21:53.333,Hwye85p
+103,Work Zone Worker,WZ WORKER,WZ WORKER,1,1,0,,2014-04-23T14:36:52.820,Hwye85p
+104,Passenger riding on vehicle exterior,RIDE ON VEH EXTERIOR,ON VEHICLE,1,1,0,,2014-04-21T17:21:53.347,Hwye85p
+105,Passenger riding on pedalcycle,PSNGR ON PEDALCYCLE,PEDAL PSGR,1,1,0,,2014-04-21T17:21:53.350,Hwye85p
+106,Pedestrian in non-motorized wheelchair,NONMOTOR WHEELCHAIR,MAN WHLCHR,1,1,0,,2014-04-17T16:53:08.770,Hwye85p
+107,Pedestrian in motorized wheelchair,MOTORIZED WHEELCHAIR,MTR WHLCHR,1,1,0,,2004-05-12T15:12:21.943,isd849
+108,Law Enforcement / Police Officer,POLICE OFFICER,OFFICER,1,1,0,,2014-04-21T17:21:53.357,Hwye85p
+109,"""Sub-Bike"": pedalcyclist injured subsequent to collision, etc.",SUBSEQUENT BICYCLIST,SUB-BIKE,1,1,0,,2014-04-23T14:36:52.820,Hwye85p
+110,Non-motorist struck vehicle,NM STR VEH,N-MTR,1,1,0,,2014-04-23T14:36:52.823,Hwye85p
+111,Street Car/Trolley (on rails or overhead wire system) struck vehicle,ST CAR STRUCK VEH,S CAR VS V,1,0,1,,2014-04-21T17:21:53.363,Hwye85p
+112,Vehicle struck Street Car/Trolley (on rails or overhead wire system),VEH STRUCK ST CAR,V VS S CAR,1,0,1,,2014-04-21T17:21:53.367,Hwye85p
+113,At or on street car or trolley right-of-way,STREET CAR ROW,S CAR ROW,1,0,0,,2014-05-06T10:07:28.217,Hwye85p
+114,Vehicle struck railroad equipment (not train) on tracks,VEH STRUCK RR EQUIP,RR EQUIP,1,0,1,,2014-04-21T17:21:53.380,Hwye85p
+115,Distracted by navigation system or GPS device,DISTRACT GPS DEVICE,DSTRCT GPS,1,1,0,,2014-08-19T15:07:25.710,Hwye85p
+116,Distracted by other electronic device,DISTRACT OTHR DEVICE,DSTRCT OTH,1,1,0,,2014-08-19T15:07:25.713,Hwye85p
+117,Rail crossing drop-arm gate,RR DROP-ARM GATE,RR GATE,1,0,1,,2014-04-21T17:28:23,hwye85p
+118,Expansion joint,EXPANSION JOINT,EXPNSN JNT,1,0,1,,2014-06-05T16:31:50.980,Hwye85p
+119,Jersey barrier,JERSEY BARRIER,JERSEY BAR,1,0,1,,2014-07-03T17:00:27.967,Hwye85p
+120,Wire or cable median barrier,WIRE BARRIER,WIRE BAR,1,0,1,,2014-04-21T17:21:53.387,Hwye85p
+121,Fence,FENCE,FENCE,1,0,1,,2014-04-21T17:28:48,hwye85p
+123,Loose object in vehicle struck occupant,LOOSE OBJ IN VEHICLE,OBJ IN VEH,1,1,0,,2014-04-21T17:30:02,hwye85p
+124,"Sliding or swerving due to wet, icy, slippery or loose surface (not gravel)",SLIPPERY SURFACE,SLIPPERY,1,0,1,,2014-04-23T14:36:52.827,Hwye85p
+125,Shoulder gave way,SHLDR GAVE,SHLDR,1,0,1,,2014-04-21T17:21:53.423,Hwye85p
+126,"Rock(s), boulder (not gravel; not rock slide)",ROCKS / BOULDER,BOULDER,1,0,1,,2014-08-19T15:07:25.720,Hwye85p
+127,Rock slide or land slide,ROCK OR LAND SLIDE,LAND SLIDE,1,0,1,,2014-04-21T17:33:57,hwye85p
+128,Curve present at crash location,CURVE PRESENT,CURVE INV,1,0,1,,2014-04-21T17:35:49,hwye85p
+129,Vertical grade / hill present at crash location,HILL PRESENT,HILL INV,1,0,1,,2014-04-21T17:36:29,hwye85p
+130,View obscured by curve,CURVE OBSCURED VIEW,CURVE HID,1,1,0,,2014-04-23T14:36:52.830,Hwye85p
+131,View obscured by vertical grade / hill,HILL OBSCURED VIEW,HILL HID,1,1,0,,2014-04-23T14:36:52.833,Hwye85p
+132,View obscured by vehicle window conditions,WINDOW VIEW OBSCURED,WINDOW HID,1,1,0,,2014-04-23T14:36:52.837,Hwye85p
+133,View obscured by water spray,SPRAY OBSCURED VIEW,SPRAY HID,1,1,0,,2014-04-23T14:36:52.840,Hwye85p
+134,Torrential Rain (exceptionally heavy rain),TORRENTIAL RAIN,TORRENTIAL,1,1,1,,2017-11-11T13:56:35.347,Hwye85p
+135,"Injured occupant of railway train, light rail, street car or cable car",RAIL/CABLE CAR OCC,RAIL OCC,1,1,0,,2020-03-02T11:06:37,hwye85p

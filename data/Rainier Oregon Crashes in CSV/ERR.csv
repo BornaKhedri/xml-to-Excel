@@ -1,0 +1,77 @@
+CRASH_ERR_CD,CRASH_ERR_LONG_DESC,CRASH_ERR_MED_DESC,CRASH_ERR_SHORT_DESC,CRASH_ERR_PARTIC_VALID_FLG,CRASH_ERR_TERMNT_DT,LAST_UD_DT,LAST_UD_USER_ID
+0,No error,NO ERROR,NONE,1,,2002-03-20T00:00:00,CONVERT
+1,Wide turn,WIDE TURN,WIDE TRN,1,,2002-03-20T00:00:00,CONVERT
+2,Cut corner on turn,CUT CORNER,CUT CORN,1,,2002-03-20T00:00:00,CONVERT
+3,"Failed to obey mandatory traffic turn signal, sign or lane markings",F OBEY TRN,FAIL TRN,1,,2002-03-20T00:00:00,CONVERT
+4,Left turn in front of oncoming traffic,LTRN FNT TRAF,L IN TRF,1,,2002-03-20T00:00:00,CONVERT
+5,Left turn where prohibited,LTRN PROHIB,L PROHIB,1,,2002-03-20T00:00:00,CONVERT
+6,Turned from wrong lane,T FRM WRNG LN,FRM WRNG,1,,2002-03-20T00:00:00,CONVERT
+7,Turned into wrong lane,T TO WRONG LN,TO WRONG,1,,2002-03-20T00:00:00,CONVERT
+8,U-turned illegally,ILLEG U-TURN,ILLEG U,1,,2002-03-20T00:00:00,CONVERT
+9,Improperly stopped in traffic lane,IMP STOP,IMP STOP,1,,2002-03-20T00:00:00,CONVERT
+10,Improper signal or failure to signal,IMP/FAIL SIG,IMP SIG,1,,2002-03-20T00:00:00,CONVERT
+11,Backing improperly (not parking),IMP BACKING,IMP BACK,1,,2012-04-04T08:44:39.030,Hwye85p
+12,Improperly parked,IMP PARKED,IMP PARK,1,,2002-03-20T00:00:00,CONVERT
+13,Improper start leaving parked position,IMP STRT PARK,UNPARK,1,,2002-03-20T00:00:00,CONVERT
+14,Improper start from stopped position,IMP STRT STOP,IMP STRT,1,,2002-03-20T00:00:00,CONVERT
+15,Improper or no lights (vehicle in traffic),IMP/NO LIGHTS,IMP LGHT,1,,2002-03-20T00:00:00,CONVERT
+16,Inattention (Failure to Dim Lights prior to 4/1/97),INATTENTION,INATTENT,1,,2014-08-19T15:22:48.400,Hwye85p
+17,Driving unsafe vehicle (no other error apparent),DR UNSAFE VEH,UNSF VEH,1,,2002-03-20T00:00:00,CONVERT
+18,Entering/exiting parked position w/ insufficient clearance; other improper parking maneuver,PRK MAN N/CLR,OTH PARK,1,,2012-04-04T08:06:02.020,Hwye85p
+19,Disregarded other driver's signal,DISRG DR SIG,DIS DRIV,1,,2002-03-20T00:00:00,CONVERT
+20,Disregarded traffic signal,DISRG TRF SIG,DIS SGNL,1,,2002-03-20T00:00:00,CONVERT
+21,Disregarded stop sign or flashing red,DISRG STP SGN,RAN STOP,1,,2002-03-20T00:00:00,CONVERT
+22,"Disregarded warning sign, flares or flashing amber",DISRG WRN SGN,DIS SIGN,1,,2002-03-20T00:00:00,CONVERT
+23,Disregarded police officer or flagman,DISRG POL/FLG,DIS OFCR,1,,2002-03-20T00:00:00,CONVERT
+24,Disregarded siren or warning of emergency vehicle,DISRG SIR/EMR,DIS EMER,1,,2002-03-20T00:00:00,CONVERT
+25,"Disregarded RR signal, RR sign, or RR flagman",DISRG RR SIG,DIS RR,1,,2002-03-20T00:00:00,CONVERT
+26,Failed to avoid stopped or parked vehicle ahead other than school bus,F AVOID STP V,REAR-END,1,,2002-03-20T00:00:00,CONVERT
+27,Did not have right-of-way over pedalcyclist,F/YLD ROW BIK,BIKE ROW,1,,2002-03-20T00:00:00,CONVERT
+28,Did not have right-of-way,NO R-O-W,NO ROW,1,,2002-03-20T00:00:00,CONVERT
+29,Failed to yield right-of-way to pedestrian,F/YLD ROW PED,PED ROW,1,,2002-03-20T00:00:00,CONVERT
+30,Passing on a curve,PASS ON CURVE,PAS CURV,1,,2002-03-20T00:00:00,CONVERT
+31,Passing on the wrong side,PASS WRNG SID,PAS WRNG,1,,2002-03-20T00:00:00,CONVERT
+32,Passing on straight road under unsafe conditions,PASS TANGENT,PAS TANG,1,,2002-03-20T00:00:00,CONVERT
+33,Passed vehicle stopped at crosswalk for pedestrian,PASS STP4PED,PAS X-WK,1,,2002-03-20T00:00:00,CONVERT
+34,Passing at intersection,PASS AT INTER,PAS INTR,1,,2002-03-20T00:00:00,CONVERT
+35,Passing on crest of hill,PASS ON HILL,PAS HILL,1,,2002-03-20T00:00:00,CONVERT
+36,"Passing in ""No Passing"" zone",PASS N/PASSNG,N/PAS ZN,1,,2002-03-20T00:00:00,CONVERT
+37,Passing in front of oncoming traffic,PASS ONC TRAF,PAS TRAF,1,,2002-03-20T00:00:00,CONVERT
+38,Cutting in (two lanes - two way only),CUTTING IN,CUT-IN,1,,2002-03-20T00:00:00,CONVERT
+39,Driving on wrong side of the road (2-way undivided roadways),DR WRONG SIDE,WRNGSIDE,1,,2014-08-19T15:20:05.403,Hwye85p
+40,Driving through safety zone or over island,DR THRU MEDN,THRU MED,1,,2002-03-20T00:00:00,CONVERT
+41,Failed to stop for school bus,F/STP SCHLBUS,F/ST BUS,1,,2002-03-20T00:00:00,CONVERT
+42,Failed to decrease speed for slower moving vehicle,F/SLO SLO VEH,F/SLO MV,1,,2002-03-20T00:00:00,CONVERT
+43,Following too closely (must be on officer's report),FOLLW TO CLOS,TOO CLOSE,1,,2016-02-24T18:23:18.580,Hwye85p
+44,Straddling or driving on wrong lanes,STRD/DR WRNG,STRDL LN,1,,2002-03-20T00:00:00,CONVERT
+45,Improper change of traffic lanes,IMP LANE CHG,IMP CHG,1,,2002-03-20T00:00:00,CONVERT
+46,Wrong way on one-way roadway; wrong side divided road,WRNG WY/1 WAY,WRNG WAY,1,,2014-08-19T15:20:57.420,Hwye85p
+47,Driving too fast for conditions (not exceeding posted speed),V BASIC RULE,BASCRULE,1,,2012-04-04T08:44:39.047,Hwye85p
+48,Opened door into adjacent traffic lane,OPN DOOR TRAF,OPN DOOR,1,,2002-03-20T00:00:00,CONVERT
+49,Impeding Traffic,IMPEDING TRAF,IMPEDING,1,,2006-05-19T13:30:00.650,isd849
+50,Driving in excess of posted speed,SPEED,SPEED,1,,2006-05-19T13:22:24.773,isd849
+51,Reckless driving (per PAR),RECKLSS DRVNG,RECKLESS,1,,2006-05-19T13:22:50.240,isd849
+52,Careless driving (per PAR),CARELSS DRVNG,CARELESS,1,,2006-05-19T13:23:10.367,isd849
+53,Speed Racing (per PAR),RACING,RACING,1,,2006-05-19T15:20:22.030,isd849
+54,"Crossing at intersection, no traffic signal present",X-INT NO SGNL,X N/SGNL,1,,2012-04-04T08:44:39.053,Hwye85p
+55,"Crossing at intersection, traffic signal present",X-INT W/ SGNL,X W/SGNL,1,,2012-04-04T08:44:39.060,Hwye85p
+56,Crossing at intersection - diagonally,X-INT DIAGNL,DIAGONAL,1,,2002-03-20T00:00:00,CONVERT
+57,Crossing between intersections,X-BTWN INTER,BTWN INT,1,,2002-03-20T00:00:00,CONVERT
+59,"Walking, running, riding, etc., on shoulder WITH traffic",W SHLD W/TRAF,W/TRAF-S,1,,2002-03-20T00:00:00,CONVERT
+60,"Walking, running, riding, etc., on shoulder FACING traffic",W SHLD A/TRAF,A/TRAF-S,1,,2002-03-20T00:00:00,CONVERT
+61,"Walking, running, riding, etc., on pavement WITH traffic",W PAVE W/TRAF,W/TRAF-P,1,,2002-03-20T00:00:00,CONVERT
+62,"Walking, running, riding, etc., on pavement FACING traffic",W PAVE A/TRAF,A/TRAF-P,1,,2002-03-20T00:00:00,CONVERT
+63,Playing in street or road,PLAY IN RDWY,PLAYINRD,1,,2002-03-20T00:00:00,CONVERT
+64,Pushing or working on vehicle in road or on shoulder,PUSH MV IN RD,PUSH MV,1,,2002-03-20T00:00:00,CONVERT
+65,Working in roadway or along shoulder,WORK IN RD,WORK IN RD,1,,2015-11-12T16:21:20.663,Hwye85p
+70,Standing or lying in roadway,LYING IN RD,LAY ON RD,1,,2015-11-12T16:21:20.670,Hwye85p
+71,Improper use of traffic lane by non-motorist,N-M IMP USE,NM IMP USE,1,,2014-08-19T15:24:59,hwye85p
+73,Eluding / Attempt to elude,ELUDING,ELUDING,1,,2014-08-19T15:26:58.777,Hwye85p
+79,Failed to negotiate a curve,FAIL NEG CURV,F NEG CURV,1,,2014-08-20T14:44:53.330,Hwye85p
+80,Failed to maintain lane,F MAINT LANE,FAIL LN,1,,2002-03-20T00:00:00,CONVERT
+81,Ran off road,RAN OFF RD,OFF RD,1,,2002-03-20T00:00:00,CONVERT
+82,Driver misjudged clearance,MISJUDGE CLR,NO CLEAR,1,,2002-03-20T00:00:00,CONVERT
+83,Over-correcting,OVERSTEER,OVRSTEER,1,,2014-11-13T14:24:47.170,Hwye85p
+84,Code not in use,NOT USED,NOT USED,1,1984-12-31T00:00:00,2006-09-13T10:54:13.733,isd849
+85,Overloading or improper loading of vehicle with cargo or passengers,OVERLOAD,OVRLOAD,1,,2002-09-12T00:00:00,CONVERT
+97,Unable to determine which driver disregarded traffic control device,UNA DISRG TCD,UNA DIS TC,1,,2003-08-02T00:00:00,ISCO866

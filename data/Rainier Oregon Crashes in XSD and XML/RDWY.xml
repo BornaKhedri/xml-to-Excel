@@ -1,0 +1,37 @@
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RDWY>
+    <RDWY_NO>1</RDWY_NO>
+    <RDWY_DESC>Add-mileage on divided highway or an undivided hwy</RDWY_DESC>
+    <RDWY_TERMNT_DT xsi:nil="true" />
+    <LAST_UD_DT>2002-03-20T00:00:00</LAST_UD_DT>
+    <LAST_UD_USER_ID>CONVERT </LAST_UD_USER_ID>
+  </RDWY>
+  <RDWY>
+    <RDWY_NO>2</RDWY_NO>
+    <RDWY_DESC>Non-add alignment on divided highway or couplet</RDWY_DESC>
+    <RDWY_TERMNT_DT xsi:nil="true" />
+    <LAST_UD_DT>2002-03-20T00:00:00</LAST_UD_DT>
+    <LAST_UD_USER_ID>CONVERT </LAST_UD_USER_ID>
+  </RDWY>
+  <RDWY>
+    <RDWY_NO>3</RDWY_NO>
+    <RDWY_DESC>Add-mileage alignment of a split roadway </RDWY_DESC>
+    <RDWY_TERMNT_DT>2009-12-31T00:00:00</RDWY_TERMNT_DT>
+    <LAST_UD_DT>2013-03-01T14:00:36.477</LAST_UD_DT>
+    <LAST_UD_USER_ID>Hwye85p </LAST_UD_USER_ID>
+  </RDWY>
+  <RDWY>
+    <RDWY_NO>4</RDWY_NO>
+    <RDWY_DESC>Non-add mileage alignment of a split roadway </RDWY_DESC>
+    <RDWY_TERMNT_DT>2009-12-31T00:00:00</RDWY_TERMNT_DT>
+    <LAST_UD_DT>2013-03-01T14:00:36.477</LAST_UD_DT>
+    <LAST_UD_USER_ID>Hwye85p </LAST_UD_USER_ID>
+  </RDWY>
+  <RDWY>
+    <RDWY_NO>5</RDWY_NO>
+    <RDWY_DESC>Alignment not yet built or non-state rdwy </RDWY_DESC>
+    <RDWY_TERMNT_DT xsi:nil="true" />
+    <LAST_UD_DT>2002-03-20T00:00:00</LAST_UD_DT>
+    <LAST_UD_USER_ID>CONVERT </LAST_UD_USER_ID>
+  </RDWY>
+</Root>

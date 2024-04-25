@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Root" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="Root" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TRAF_CNTL_DEVICE">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TRAF_CNTL_DEVICE_CD" type="xs:string" minOccurs="0" />
+              <xs:element name="TRAF_CNTL_DEVICE_LONG_DESC" type="xs:string" minOccurs="0" />
+              <xs:element name="TRAF_CNTL_DEVICE_SHORT_DESC" type="xs:string" minOccurs="0" />
+              <xs:element name="TRAF_CNTL_DEVICE_TERMNT_DT" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="LAST_UD_DT" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="LAST_UD_USER_ID" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,30 @@
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SEX>
+    <SEX_CD>1</SEX_CD>
+    <SEX_DESC>Male      </SEX_DESC>
+    <SEX_TERMNT_DT xsi:nil="true" />
+    <LAST_UD_DT>2002-03-20T00:00:00</LAST_UD_DT>
+    <LAST_UD_USER_ID>CONVERT </LAST_UD_USER_ID>
+  </SEX>
+  <SEX>
+    <SEX_CD>2</SEX_CD>
+    <SEX_DESC>Female    </SEX_DESC>
+    <SEX_TERMNT_DT xsi:nil="true" />
+    <LAST_UD_DT>2002-03-20T00:00:00</LAST_UD_DT>
+    <LAST_UD_USER_ID>CONVERT </LAST_UD_USER_ID>
+  </SEX>
+  <SEX>
+    <SEX_CD>3</SEX_CD>
+    <SEX_DESC>Non-Binary</SEX_DESC>
+    <SEX_TERMNT_DT xsi:nil="true" />
+    <LAST_UD_DT>2018-03-28T10:02:21.140</LAST_UD_DT>
+    <LAST_UD_USER_ID>ISD665  </LAST_UD_USER_ID>
+  </SEX>
+  <SEX>
+    <SEX_CD>9</SEX_CD>
+    <SEX_DESC>Unknown   </SEX_DESC>
+    <SEX_TERMNT_DT xsi:nil="true" />
+    <LAST_UD_DT>2002-03-20T00:00:00</LAST_UD_DT>
+    <LAST_UD_USER_ID>CONVERT </LAST_UD_USER_ID>
+  </SEX>
+</Root>

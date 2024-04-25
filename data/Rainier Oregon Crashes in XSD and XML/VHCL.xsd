@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Root">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="VHCL">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CRASH_ID" type="xs:unsignedInt" />
+              <xs:element name="VHCL_ID" type="xs:unsignedInt" />
+              <xs:element name="VHCL_CODED_SEQ_NO" type="xs:unsignedByte" />
+              <xs:element name="VHCL_OWNSHP_CD" type="xs:unsignedByte" />
+              <xs:element name="VHCL_OWNSHP_SHORT_DESC" type="xs:string" />
+              <xs:element name="VHCL_USE_CD" type="xs:unsignedByte" />
+              <xs:element name="VHCL_USE_SHORT_DESC" type="xs:string" />
+              <xs:element name="VHCL_TYP_CD" type="xs:unsignedByte" />
+              <xs:element name="VHCL_TYP_SHORT_DESC" type="xs:string" />
+              <xs:element name="EMRGCY_VHCL_USE_FLG" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="TRLR_QTY" type="xs:unsignedByte" />
+              <xs:element name="MVMNT_CD" type="xs:unsignedByte" />
+              <xs:element name="MVMNT_SHORT_DESC" type="xs:string" />
+              <xs:element name="CMPSS_DIR_FROM_CD" type="xs:unsignedByte" />
+              <xs:element name="VHCL_CMPSS_DIR_FROM_SHORT_DESC" type="xs:string" />
+              <xs:element name="CMPSS_DIR_TO_CD" type="xs:unsignedByte" />
+              <xs:element name="VHCL_CMPSS_DIR_TO_SHORT_DESC" type="xs:string" />
+              <xs:element name="ACTN_CD" type="xs:unsignedByte" />
+              <xs:element name="ACTN_SHORT_DESC" type="xs:string" />
+              <xs:element name="VHCL_CAUSE_1_CD" type="xs:unsignedByte" />
+              <xs:element name="VHCL_CAUSE_1_SHORT_DESC" type="xs:string" />
+              <xs:element minOccurs="0" name="VHCL_EVNT_1_CD" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="VHCL_EVNT_1_SHORT_DESC" type="xs:string" />
+              <xs:element minOccurs="0" name="VHCL_EVNT_2_CD" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="VHCL_EVNT_2_SHORT_DESC" type="xs:string" />
+              <xs:element minOccurs="0" name="VHCL_EVNT_3_CD" type="xs:unsignedByte" />
+              <xs:element minOccurs="0" name="VHCL_EVNT_3_SHORT_DESC" type="xs:string" />
+              <xs:element name="VHCL_SPEED_FLG" type="xs:unsignedByte" />
+              <xs:element name="VHCL_HIT_RUN_FLG" type="xs:unsignedByte" />
+              <xs:element name="VHCL_SFTY_EQUIP_USED_QTY" type="xs:unsignedByte" />
+              <xs:element name="VHCL_SFTY_EQUIP_UNUSED_QTY" type="xs:unsignedByte" />
+              <xs:element name="VHCL_SFTY_EQUIP_USE_UNKNWN_QTY" type="xs:unsignedByte" />
+              <xs:element name="VHCL_OCCUP_CNT" type="xs:unsignedByte" />
+              <xs:element name="STRIKG_VHCL_FLG" type="xs:unsignedByte" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
